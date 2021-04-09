@@ -1,4 +1,4 @@
-# 
+# Professional-README-Generator
 
 
   ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
@@ -6,33 +6,47 @@
   
   ### Table Of Contents
 
-  1. [Description](#Description)
-  2. [Installation](#Installation)
-  4. [Application Screenshot](#Application Screenshot)
-  5. [Contributions](#Contributions)
-  6. [Contact](#Contact)
+  1. [Description](#description)
+  2. [Installation](#installation)
+  4. [Usage](#usage)
+  5. [Contributions](#contributions)
+  6. [Test](#test)
+  7. [Questions](#questions)
+
+
   ## Description 
 
-  
+  Application that generates a README.md fole based on user input about project.
 
-  
+  SO THAT I can quickly create a professional README for a new project
 
-  
+  saves time building a Readme File from scratch
 
-  
+  how to use Node and user input along with different functions to create a file.
 
   
   
   
  ## Installation
 
+ Open terminal/bash and run `npm Install` then type node index.js
+
+ [Github Pages Live Site] https://github.com/Jbarbss/Professional-README-Generator
+
+ [Github Repo Site] https://github.com/Jbarbss/Professional-README-Generator
+
+
+ ## Usage
+
+ answer all of the questions to the best of your ability
+
+
+ ## Contributing
+
+ Ben Durham (https://github.com/bdurham227) Gabe Thomas (https://github.com/samohtebag) Patrick Walker (https://github.com/pat31477) Takuya Matsumoto (https://github.com/TakuyaMats)
+
  
 
- [Github Pages Live Site] 
-
- [Github Repo Site] 
- ## Application Screenshot
- ![ScreenShot](undefined "ScreenShot")
  
  ## License
 
@@ -46,20 +60,13 @@
         The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
         
         THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE;
- 
- 
- ## Contributing
 
  
-
  
-
- 
-
  ## Contact
 
  
- My github: 
+ My Github: https://github.com/Jbarbss/
 
  my Email: Jbarbanel@gmail.com
-  
+ 
