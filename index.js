@@ -13,7 +13,19 @@ const questions = [{
 {
     type: 'input',
     name: 'email',
-    message: 'What is your email?'
+    message: 'What is your email?',
+    validate: function (email) {
+  
+        valid = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/.test(email)
+
+        if (valid) {
+          console.log("Great job");
+            return true;
+        } else {
+            console.log(".  Please enter a valid email")
+            return false;
+        }
+    }
 },
 {
     type: 'input',
@@ -80,7 +92,7 @@ const questions = [{
     type:"list",
     name:"license",
     message:'Which open source license would you like to use? ',
-    choices:["MIT", "Apache License 2.0", "ISC", "None" ]
+    choices:["MIT", "GPL", "ISC", "None" ]
 },
 
 ];
