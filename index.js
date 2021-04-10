@@ -22,7 +22,7 @@ const questions = [
         console.log("Great job");
         return true;
       } else {
-        console.log(".  Please enter a valid email");
+        console.log("Please enter a valid email");
         return false;
       }
     },
@@ -57,28 +57,59 @@ const questions = [
     type: "input",
     name: "description",
     message: "Please describe your project.",
+    validate: function (answer) {
+      if (answer.length < 1) {
+        return console.log("Please describe your project.");
+      }
+      return true;
+    },
   },
   {
     type: "input",
     name: "reason",
     message: "Why did you build this project?",
+    validate: function (answer) {
+      if (answer.length < 1) {
+        return console.log("Please enter why you built your project.");
+      }
+      return true;
+    },
   },
   {
     type: "input",
     name: "problem",
     message: "What problem does it solve?",
+    validate: function (answer) {
+      if (answer.length < 1) {
+        return console.log("Please enter what problems are solver by your project.");
+      }
+      return true;
+    },
   },
-  {
-    type: "input",
-    name: "learn",
-    message: "What did you learn?",
-  },
+  
 
   {
     type: "input",
     name: "install",
     message:
       "What are the steps required to install your project? Provide a step-by-step description of how to get the development environment running.",
+      validate: function (answer) {
+        if (answer.length < 1) {
+          return console.log("Please enter the required steps to install of your project.");
+        }
+        return true;
+      },
+  },
+  {
+    type: "input",
+    name: "usage",
+    message: "How do you run this application",
+    validate: function (answer) {
+      if (answer.length < 1) {
+        return console.log("Please enter how to run this application.");
+      }
+      return true;
+    },
   },
   {
     type: "confirm",
@@ -92,12 +123,6 @@ const questions = [
     when: function (answers) {
       return answers.examples;
     },
-  },
-  {
-    type: "input",
-    name: "examples",
-    message:
-      "Provide instructions and examples for use. Include screenshots as needed.",
   },
   {
     type: "confirm",
@@ -117,7 +142,7 @@ const questions = [
     type: "list",
     name: "license",
     message: "Which open source license would you like to use? ",
-    choices: ["MIT", "GPL", "ISC", "None"],
+    choices: ["MIT", "ISC", "None"],
   },
 ];
 
@@ -134,9 +159,10 @@ function writeToFile(fileName, data) {
 function init() {
   inquirer.prompt(questions).then(function (answers) {
     const readMeContent = generateMarkdown(answers);
-    writeToFile("./Generated-README/README.md", readMeContent);
+    writeToFile('./Generated-README/README.md', readMeContent);
   });
 }
 
+console.log(generateMarkdown);
 // Function call to initialize app
 init();

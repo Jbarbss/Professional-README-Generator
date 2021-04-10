@@ -1,79 +1,58 @@
-# Code-Quiz
+# Readme Generator
 
-1. [ Description. ](#desc)
-2. [ Web Address. ](#web-address)
-3. [ Contributions. ](#contributions)
-4. [ Licensing. ](#licensing)
+![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
+ ## Table of Contents
+1. [Description](#description)
 
+2. [Installation](#installation)
 
+3. [Usage](#usage)
 
+4. [Contributions](#contributions)
 
-<a name="desc"></a>
-## 1. Description
+5. [Tests](#tests)
 
-I created a coding quiz that stores the high scores of the users.
-the home page has the title screen with instructions of how to play and 
-the start button to begin the game. On the header is a link to the High Scores page on 
-the left and the timer on the right.
-When you click start the question and 4 options will appear. The timer will also 
-begin counting down from 75 seconds.
-When you click on your answer choice the correct answer will be highlighted in blue
-while the wrong answers will turn red. 
-If you answer a question wrong, 10 seconds will be removed from the timer.
-You will then be presented with a NEXT button to move on to the next question.
-The games will end when all the questions are answered or if the timer reaches 0.
-A GAME OVER screen will pop up and tell you the quiz is finished.
-It will also display your score and ask to input your initials. 
-when you click the submit button you will be directed to the High Scores page,
-where your initials and score will be listed. 
-If other people play, you can compare your scores.
-there will be 2 buttons on the bottom. One will bring you back to the beginning of the quiz to play again.
-the other button will clear all of the scores on the high score list.
+6. [Questions](#questions)
 
-Application will deploy live with no errors and all files can be seen in my Github Repository
+## Description
+ When creating an open source project on GitHub, it’s important to have a high-quality README for the app. This should include what the app is for, how to use the app, how to install it, how to report issues, and how to make contributions&mdash;this last part increases the likelihood that other developers will contribute to the success of the project. 
+ 
+    Why did you build this project: You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
 
+    What problem does this solve?: You can quickly and easily create a README file by using a command-line application to generate one. This allows the project creator to devote more time to working on the project.
+ 
+ ## Installation
+Your task is to create a command-line application that dynamically generates a professional README.md file from a user's input using the [Inquirer package](https://www.npmjs.com/package/inquirer). Review the [Professional README Guide](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide) as a reminder of everything that a high-quality, professional README should contain. 
 
-<a name="web-address"></a>
-## 2. How to Get There
+ [Github Live Site]https://github.com/Jbarbss/Professional-README-Generator
 
-### Click link to open in your browser.
+ [Github Repo Site]https://github.com/Jbarbss/Professional-README-Generator
 
+ ## Usage
+ Node index.js
 
-[github pages site] https://jbarbss.github.io/Code-Quiz/
+ ## Tests
+ tested every day
+ ## Contributions
+ ben
 
-[github repository site] https://github.com/Jbarbss/Code-Quiz
+ ## License
+ ![GitHub license](https://img.shields.io/badge/license-MIT-blue.svg)
 
-### Deployed application screen shot
+         https://opensource.org/licenses/MIT
 
-![ScreenShot](assets/images/code-quiz-Main.png "Main Page")
-![ScreenShot](assets/images/code-quiz-Questions.png "Question Page")
-![ScreenShot](assets/images/code-quiz-answers.png "Answers Page")
-![ScreenShot](assets/images/code-quiz-gameover.png "Game Over Page")
-![ScreenShot](assets/images/code-quiz-highscore.png "High Scores Page")
+        Licensed under the MIT License
 
+        Copyright u00A9 [2021] [Jason Barbanel]
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE
 
+ ## Questions
+ If you have any questions about this application, Contact Me:
 
-<a name="contributions"></a>
-## 3. Contributions
-Thank you to the following for their suggestions and insights.
+    Github: https://github.com/Jbarbss/Professional-README-Generator
 
-Ben Durham (https://github.com/bdurham227)
-
-Gabe Thomas (https://github.com/samohtebag)
-
-Patrick Walker (https://github.com/pat31477)
-
-Takuya Matsumoto (https://github.com/TakuyaMats)
-
-
-<a name="licensing"></a>
-## 4. Licensing
-
-
-Copyright (c) 2021 Jason Barbanel
-
-Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the "Software"), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+    Email:  Jbarbanel@gmail.com
