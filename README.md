@@ -16,23 +16,43 @@
 
 ## Description
 
+I have built an application that is a creates a README.md file based on user input from the command line in Terminal/Bash. The application uses the inquirer NPM package and was built using JavaScript and node.js.
 
 
 
- ## Installation
+## Installation
+
+Make sure to have node.js installed before running application.
+if not please go here https://nodejs.org/en/download/package-manager/
+
+Once Node.js is installed please enter the following:
+```
+npm install
+
+npm init
+
+npm i inquirer
+
+```
+
+## Usage
+
+The application will be invoked by using the following command:
+
+```bash
+node index.js
+```
 
 
+Walkthrough video: 
 
+ 
 
+https://drive.google.com/file/d/1aUAgFX97OaLyGDrIbjB4rp-M2I3cIq16/view
 
-  ## Usage
+Screen Shot of Generated Readme:
 
-
-
-
-  Walkthrough video: 
-
- ![ScreenShot](assets/images/Portfolio-Demo.jpg "Generated README.md")
+![ScreenShot](IMG/application-readme-generator-screenshot.png "Generated README.md")
 
  
 ## Contribution
